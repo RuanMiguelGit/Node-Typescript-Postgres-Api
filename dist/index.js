@@ -8,6 +8,8 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());
 const PORT = 3000;
+const index_1 = __importDefault(require("./routes/index"));
+app.use(index_1.default);
 app.listen(PORT, () => {
     console.log('Servidor Ativo');
 });
