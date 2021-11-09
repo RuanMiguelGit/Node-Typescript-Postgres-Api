@@ -6,7 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuanMiguelGit/Node-Typescript-Postgres-Api.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuanMiguelGit/Node-Typescript-Postgres-Api/issues"
+  },
+  "homepage": "https://github.com/RuanMiguelGit/Node-Typescript-Postgres-Api#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
 }
